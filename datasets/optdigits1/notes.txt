@@ -1,0 +1,3 @@
+artificial outlier detection problem from optdigits dataset
+normal class: only 2s
+outlier class: 5 samples each from 4s, 5s, 7s, 8s

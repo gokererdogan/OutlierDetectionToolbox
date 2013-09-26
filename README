@@ -1,0 +1,40 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see http://www.gnu.org/licenses/.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Outlier Detection Toolbox in MATLAB
+Goker Erdogan,
+Bogazici University
+gokererdogan@gmail.com
+
+This toolbox contains implementations of outlier detection methods;
+- Active Outlier
+- Local Outlier Factor
+- Feature Bagging
+- Parzen Windows
+
+It also contains implementations of the following spectral methods;
+- Laplacian Eigenmaps
+- Multidimensional scaling
+- Kernel Principal Components Analysis
+
+
+Dependencies: MATLAB Statistics toolbox (used for decision tree)
+
+Contains croc and auroc functions implemented by Dr Gavin C. Cawley taken from http://theoval.cmp.uea.ac.uk/matlab/#roc
+Run demo/demo or demo/od for demonstration
+
+See demo/od_script.m for a sample script
+
+
